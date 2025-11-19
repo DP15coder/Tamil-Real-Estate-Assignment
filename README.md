@@ -168,6 +168,13 @@ CREATE TABLE transactions (
 - Check PDF format matches Tamil govt documents
 - View server logs for errors
 
+
+## Working Screen Shot
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/8ac60225-9e67-43a8-83dd-84347f5be37a" />
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/d727f1b7-e658-4582-90c2-0d6e179d55ab" />
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/ba8d26fb-50a2-4f45-bf81-6d9b0330e311" />
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/18586836-a4c2-4f73-a582-d8a984de6b00" />
+
 ## Build for Production
 
 ```bash
