@@ -28,8 +28,6 @@ Extract, translate, and search Tamil real estate transactions from PDF documents
 ### 2. Clone & Install
 
 ```bash
-git clone <your-repo>
-cd NiranAI
 npm install
 ```
 
@@ -49,15 +47,25 @@ Create `.env` file:
 
 ```env
 DATABASE_URL=postgresql://username:password@localhost:5432/tamil_transactions
-JWT_SECRET=your_secret_key_here
 NEXT_PUBLIC_APP_URL=http://localhost:3000
+OPENAI_API_KEY= "put your openapi key here"
 
-# Demo login (default values)
-DEMO_USERNAME=admin
-DEMO_PASSWORD=demo123
 ```
 
-### 5. Run
+### 5. Setup Drizzle ORM
+
+```bash
+# Generate migration files (optional)
+npx drizzle-kit generate
+
+# Push schema to database
+npx drizzle-kit push
+
+# Open Drizzle Studio to view database (optional)
+npx drizzle-kit studio
+```
+
+### 6. Run
 
 ```bash
 npm run dev

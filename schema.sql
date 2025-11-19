@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS transactions (
   transaction_type TEXT,
   executant TEXT,
   claimant TEXT,
-  house_number TEXT,
+  plot_number TEXT,
   property_description TEXT,
   property_value TEXT,
   pdf_source VARCHAR(255),
